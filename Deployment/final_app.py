@@ -64,7 +64,7 @@ if uploaded_file is not None:
   
   """#### **PASS TO PRETRAINED ML MODEL FOR PREDICTION**"""
   #call the Pretrainsed ML model for prediction
-  ecg_model=ecg.ModelLoad_predict(ecg_final)
+  ecg_model = ecg.ModelLoad_predict(ecg_final)
   my_expander5 = st.expander(label='PREDICTION')
   with my_expander5:
     st.write(ecg_model)
